@@ -1,0 +1,55 @@
+/* variable */
+
+$main-color: #009999;
+$sub-color: #fff;
+$accent-color: #009999;
+$text-color: #121212;
+$text-bcolor: #fff;
+$bg-color: #eee;
+$full: 1601px;
+$wide: 1600px;
+$normal: 1240px;
+$tab: 990px;
+$sp: 749px; 
+$min: 480px; 
+@mixin wide {
+  @media (min-width: ($full)) {
+    @content;
+  }
+}
+@mixin wide {
+  @media (max-width: ($wide)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($normal)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+@mixin min {
+  @media (max-width: ($min)) {
+    @content;
+  }
+}
+
+/* ■■■■■■■■■■■■■■■■■■■■ reset ■■■■■■■■■■■■■■■■■■■■ */
+.header:not(.drawer-menu).page-width{
+  padding: 0;
+}
+.header.page-width, .utility-bar__grid.page-width{
+  padding: 0;
+}
+.header{
+  padding: 0;
+}

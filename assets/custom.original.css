@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* variable */
+/* ■■■■■■■■■■■■■■■■■■■■ reset ■■■■■■■■■■■■■■■■■■■■ */
+.header:not(.drawer-menu).page-width {
+  padding: 0;
+}
+
+.header.page-width, .utility-bar__grid.page-width {
+  padding: 0;
+}
+
+.header {
+  padding: 0;
+}/*# sourceMappingURL=custom.original.css.map */
