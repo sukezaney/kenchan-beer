@@ -1,1 +1,1 @@
-.header:not(.drawer-menu).page-width{padding:0}.header.page-width,.utility-bar__grid.page-width{padding:0}.header{padding:0;height:100px}/*# sourceMappingURL=custom.css.map */
+.header:not(.drawer-menu).page-width{padding:0}.header.page-width,.utility-bar__grid.page-width{padding:0}.header{max-width:1170px;padding:0 15px;height:100px}@media(max-width: 749px){.header .header__heading .header__heading-logo-wrapper{max-width:100%;width:200px}}/*# sourceMappingURL=custom.css.map */

@@ -51,6 +51,15 @@ $min: 480px;
   padding: 0;
 }
 .header{
-  padding: 0;
+  max-width: 1170px;
+  padding: 0 15px;
   height: 100px;
+  .header__heading{
+    .header__heading-logo-wrapper{
+      @include sp{
+        max-width: 100%;
+        width: 200px;
+      }
+    }
+  }
 }
