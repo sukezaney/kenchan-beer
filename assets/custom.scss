@@ -56,9 +56,11 @@ $min: 480px;
   height: 100px;
   .header__heading{
     .header__heading-logo-wrapper{
-      @include sp{
-        max-width: 100%;
-        width: 200px;
+      img{
+        @include sp{
+          max-width: 100%;
+          width: 200px;
+        }
       }
     }
   }
