@@ -66,9 +66,9 @@ $min: 480px;
   }
 }
 .banner--small:not(.banner--adapt) {
-  min-height: 500px;
+  min-height: 500px!important;
   @include sp{
-    height: 28rem;
+    height: 28rem!important;
   }
 }
 .page-width{
