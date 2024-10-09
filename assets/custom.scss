@@ -65,3 +65,14 @@ $min: 480px;
     }
   }
 }
+.banner--small:not(.banner--adapt) {
+  min-height: 500px;
+  @include sp{
+    height: 28rem;
+  }
+}
+.page-width{
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
