@@ -55,7 +55,7 @@
         "description_style": "subtitle",
         "collection": "all",
         "products_to_show": 24,
-        "columns_desktop": 6,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -76,7 +76,7 @@
     "image-banner": {
       "type": "image-banner",
       "custom_css": [
-        ".banner{max-width: 1170px; margin: 0 auto; padding-left: 15px; padding-right: 15px;}"
+        ".banner {max-width: 1170px; margin: 0 auto; padding-left: 15px; padding-right: 15px;}"
       ],
       "settings": {
         "image": "shopify://shop_images/shopify.jpg",
